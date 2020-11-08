@@ -4,13 +4,13 @@ This is my first restAPI that provides endpoints to a todo list.
 
 ## Endpoints
 
-| Method | Resource 		     | Description                                                  |
+| Method | Resource 		     | Description                                              |
 |--------|-----------------------|----------------------------------------------------------|
 | GET    | /v1/tasks             | Returns all the existing tasks                           |
 | GET    | /v1/tasks/{id}        | Returns all requests made to third-party providers       |
-| POST   | /v1/requests          | Deletes all saved requests made to third-party providers |
-| UPDATE | /v1/requests          | Deletes all saved requests made to third-party providers |
-| DELETE | /v1/requests          | Deletes all saved requests made to third-party providers |
+| POST   | /v1/tasks/            | Creates a new task with a 'to-do' status by default      |
+| UPDATE | /v1/tasks/{id}        | Updates the content of one specific task                 |
+| DELETE | /v1/requests          | Deletes the specified task                               |
 
 
 ## Run 
